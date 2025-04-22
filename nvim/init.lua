@@ -76,6 +76,10 @@ require("lazy").setup({
       })
     end,
   },
+
+ { "Vimjas/vim-python-pep8-indent", ft = "python" },
+
+
 })
 
 -- Telescope shortcut for dotfiles

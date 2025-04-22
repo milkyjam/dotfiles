@@ -9,6 +9,18 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+#Script to run for 2nd monitor to hopefully work.
+
+
+# This was the first script that works just for the one vertical monitor. 
+# Exec_always --no-startup-id ~/.config/2nd_display_set_up.sh.sh
+
+#This is a more complex script to handle both my monitors. Only one will work at a time though. 
+exec_always --no-startup-id ~/.config/smart_display.sh
+
+
+
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
